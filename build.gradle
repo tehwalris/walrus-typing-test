@@ -2,3 +2,7 @@ apply plugin: 'java'
 apply plugin: 'application'
 
 mainClassName = 'com.tehwalris.eprog.Excercise'
+
+run {
+  standardInput = System.in
+}
