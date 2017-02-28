@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'com.tehwalris.eprog.Excercise'
+mainClassName = 'com.tehwalris.walrusTypingTest.App'
 
 run {
   standardInput = System.in
